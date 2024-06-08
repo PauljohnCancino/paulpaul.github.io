@@ -16,10 +16,9 @@ btnLike2.addEventListener("click",clickLike2)
 const comment = document.getElementById("comment")
 const submit = document.getElementById("submit")
 const commentbox = document.getElementById("commentbox")
-
 function submitComment(){
   commentbox.textContent += comment.value.toString() + "\n"
-
+  comment.value=""
+    
 }
-
 submit.addEventListener("click", submitComment)
