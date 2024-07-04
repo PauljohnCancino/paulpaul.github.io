@@ -6,7 +6,7 @@ const products = [
     { id: "product5", qty: "qty5", price: "price5" },
     { id: "product6", qty: "qty6", price: "price6" },
     { id: "product7", qty: "qty7", price: "price7" },
-    { id: "product8", qty: "qty8", price: "price8" }
+    { id: "product8", qty: "qty8", price: "price8" },
 ];
 
 const carts = document.getElementById("carts");
